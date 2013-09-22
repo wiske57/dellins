@@ -1,0 +1,18 @@
+$ORIGIN	0.0.10.in-addr.arpa.
+$TTL	86400
+@	IN	SOA	dellins.project.tld.	hostmaster.project.tld.	(
+	2013042900	;serial
+	21600	;refresh after 6 hours
+	3600	;retry after 1 hour
+	604800	;expire aftr 1 week
+	86400 )	;minimum TTL 1 day
+
+@	IN	NS	dellins.project.tld.
+
+1	IN	PTR	dellins.project.tld.
+
+2	IN	PTR	dellins.project.tld.
+
+3	IN	PTR	dellins.project.tld.
+
+4	IN	PTR	dellins.project.tld.

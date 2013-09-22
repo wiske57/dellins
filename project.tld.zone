@@ -1,0 +1,13 @@
+$ORIGIN	project.tld.
+$TTL	86400
+@	IN	SOA	dellins.project.tld.	hostmaster.project.tld.	(
+	2013042900	;serial
+	21600	;refresh after 6 hours
+	3600	;retry after 1 hour
+	604800	;expire after 1 week
+	86400 )	;minimum TTL 1 day
+
+	IN	NS	dellins.project.tld.
+	IN	A	10.0.0.1
+dellins	IN	A	10.0.0.1
+www	IN	CNAME	dellins
